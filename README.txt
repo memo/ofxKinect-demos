@@ -2,8 +2,8 @@
  A bunch of demos for using Kinect with openFrameworks.
  Copyright (c) 2010 Memo Akten http://www.memo.tv
  
- Warning. this code is very ugly!
- Just a test prototype to see what can be done with Kinect
+ Warning. the code is very ugly!
+ Just test prototypes to see what can be done with Kinect
  
  
  Using ofxKinect by Theo Watson and co. 
@@ -11,7 +11,7 @@
  
  
  based on libfreenect - an open source Kinect driver
- https://github.com/OpenKinect/openkinect
+ http://git.marcansoft.com/?p=libfreenect.git
  
  Copyright (C) 2010  Hector Martin "marcan" <hector@marcansoft.com>
  
