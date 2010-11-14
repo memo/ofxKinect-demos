@@ -11,6 +11,7 @@
  
  
  based on libfreenect - an open source Kinect driver
+ https://github.com/OpenKinect/openkinect
  
  Copyright (C) 2010  Hector Martin "marcan" <hector@marcansoft.com>
  
