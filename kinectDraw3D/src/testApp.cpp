@@ -69,8 +69,8 @@ float	maxBlobSize;
 int		maxNumBlobs;
 
 // transform
-float	scale;
-float	offset;
+float	depthScale;
+float	depthOffset;
 
 // tracking
 bool doKalman;
@@ -151,8 +151,8 @@ void testApp::setup() {
 	gui.addSlider("maxNumBlobs", maxNumBlobs, 0, 100);
 	
 	gui.addTitle("DEPTH TRANSFORM");
-	gui.addSlider("depthScaling", scale, 0, 10);
-	gui.addSlider("depthOffset", offset, -128, 128);
+	gui.addSlider("depthScaling", depthScale, -100, 100);
+	gui.addSlider("depthOffset", depthOffset, -128, 128);
 	
 	gui.addTitle("TRACKING");
 	gui.addToggle("doKalman", doKalman);
@@ -271,11 +271,11 @@ void testApp::update() {
 		
 		newPoint.x = maxLoc.x + blob.boundingRect.x;
 		newPoint.y = maxLoc.y + blob.boundingRect.y;
-		newPoint.z = (maxValue + offset) * scale;	// read from depth map
+//		newPoint.z = (maxValue + offset) * depthScale;	// read from depth map
 		
 		// read directly from distance (in cm)
 		// this doesn't seem to work, need to look into it
-		//newPoint.z = (kinect.getDistancePixels()[(int)(newPoint.x * kinect.getWidth() + newPoint.y)] + offset) * scale;	
+		newPoint.z = (kinect.getDistanceAt(newPoint) + depthOffset) * depthScale;
 		
 		
 		// apply kalman filtering

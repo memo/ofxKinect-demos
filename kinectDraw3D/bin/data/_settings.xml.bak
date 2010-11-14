@@ -53,11 +53,11 @@
     </SliderInt_maxNumBlobs>
     <SliderFloat_depthScaling>
         <name>depthScaling</name>
-        <value>8.278146</value>
+        <value>-68.103447</value>
     </SliderFloat_depthScaling>
     <SliderFloat_depthOffset>
         <name>depthOffset</name>
-        <value>-128.000000</value>
+        <value>-64.000000</value>
     </SliderFloat_depthOffset>
     <Toggle_doKalman>
         <name>doKalman</name>
