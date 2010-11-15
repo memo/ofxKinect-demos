@@ -6,7 +6,7 @@
  Just test prototypes to see what can be done with Kinect
  
  
- Using ofxKinect by Theo Watson and co. 
+ Using ofxKinect by Theo Watson, Dan Wilcox and co. 
  https://github.com/ofTheo/ofxKinect
  
  
