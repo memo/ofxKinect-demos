@@ -5,7 +5,7 @@
     </Toggle_invert>
     <Toggle_mirror>
         <name>mirror</name>
-        <value>0</value>
+        <value>1</value>
     </Toggle_mirror>
     <SliderInt_preBlur>
         <name>preBlur</name>
@@ -13,7 +13,7 @@
     </SliderInt_preBlur>
     <SliderFloat_bottomThreshold>
         <name>bottomThreshold</name>
-        <value>0.413793</value>
+        <value>0.409483</value>
     </SliderFloat_bottomThreshold>
     <SliderFloat_topThreshold>
         <name>topThreshold</name>
@@ -25,7 +25,7 @@
     </SliderInt_erodeAmount>
     <SliderInt_dilateAmount>
         <name>dilateAmount</name>
-        <value>5</value>
+        <value>0</value>
     </SliderInt_dilateAmount>
     <Toggle_dilateBeforeErode>
         <name>dilateBeforeErode</name>
@@ -53,11 +53,11 @@
     </SliderInt_maxNumBlobs>
     <SliderFloat_depthScaling>
         <name>depthScaling</name>
-        <value>-42.241375</value>
+        <value>0.862076</value>
     </SliderFloat_depthScaling>
     <SliderFloat_depthOffset>
         <name>depthOffset</name>
-        <value>-64.000000</value>
+        <value>0.000000</value>
     </SliderFloat_depthOffset>
     <Toggle_doKalman>
         <name>doKalman</name>

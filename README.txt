@@ -2,21 +2,17 @@
  A bunch of demos for using Kinect with openFrameworks.
  Copyright (c) 2010 Memo Akten http://www.memo.tv
  
- Warning. the code is very ugly!
- Just test prototypes to see what can be done with Kinect
- 
- 
- Using ofxKinect by Theo Watson, Dan Wilcox and co. 
- https://github.com/ofTheo/ofxKinect
- 
- 
- based on libfreenect - an open source Kinect driver
- http://git.marcansoft.com/?p=libfreenect.git
- 
- Copyright (C) 2010  Hector Martin "marcan" <hector@marcansoft.com>
- 
+ Using ofxKinect by Theo Watson, Dan Wilcox and co.
+ github.com/​ofTheo/​ofxKinect
+
+ based on libfreenect by Hector Martin "marcan" 
+ git.marcansoft.com/​?p=libfreenect.git
+
+
  This code is licensed to you under the terms of the GNU GPL, version 2 or version 3;
  see:
- http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
- http://www.gnu.org/licenses/gpl-3.0.txt
+ gnu.org/​licenses/​old-licenses/​gpl-2.0.txt
+ gnu.org/​licenses/​gpl-3.0.txt
+
+ More info on the opensource kinect drivers at github.com/​OpenKinect/​openkinect
  */
